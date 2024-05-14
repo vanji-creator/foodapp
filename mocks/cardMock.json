@@ -1,0 +1,54 @@
+{
+  "info": {
+    "id": "769502",
+    "name": "Pizza Hut",
+    "cloudinaryImageId": "978358a0d0caba4f4555b8e2147b467d",
+    "locality": "chandivali",
+    "areaName": "Powai",
+    "costForTwo": "₹350 for two",
+    "cuisines": ["Pizzas"],
+    "avgRating": 4.1,
+    "parentId": "721",
+    "avgRatingString": "4.1",
+    "totalRatingsString": "500+",
+    "sla": {
+      "deliveryTime": 45,
+      "lastMileTravel": 5,
+      "serviceability": "SERVICEABLE",
+      "slaString": "40-45 mins",
+      "lastMileTravelString": "5.0 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2024-05-01 05:00:00",
+      "opened": true
+    },
+    "badges": {},
+    "isOpen": true,
+    "aggregatedDiscountInfoV2": {},
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {},
+        "textBased": {},
+        "textExtendedBadges": {}
+      }
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+  },
+  "analytics": {},
+  "cta": {
+    "link": "https://www.swiggy.com/restaurants/pizza-hut-chandivali-powai-mumbai-769502",
+    "type": "WEBLINK"
+  }
+}

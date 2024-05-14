@@ -5,10 +5,9 @@ import { useState, useEffect, useContext } from "react";
 import UserContext from "../utils/UserContext";
 import { Link } from "react-router-dom";
 import WithPromotedLabel from "./WithPromotedLabel";
-
+import data from "../utils/data.json";
 
 const Section = () => {
-
   const [restList, setrestList] = useState([]);
   const [searchText, setSearchText] = useState("");
   const [searchName, setSearchName] = useState("");
@@ -23,10 +22,8 @@ const Section = () => {
   if (onlineStatus === false) return <h1>You are offline</h1>;
 
   const fetchData = async () => {
-    const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-    );
-    const json = await data.json();
+    const json = data;
+    console.log(data);
 
     setlistFilter(
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
